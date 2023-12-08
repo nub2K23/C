@@ -1,10 +1,9 @@
 #include <stdio.h>
-int main() {
-    int i=1;
-    char j='A';
-    float sigma=1.5;
-    int *alpha; char *ch; float *s;
-    alpha=&i; ch=&j; s=&sigma;
-    printf("%d %d %d", (int)&i, (int)&j, (int)&sigma);
+int main()
+{
+    int numbers[5] = {1, 2, 3, 4, 5};
+    int firstNumber = numbers[0];
+    printf("%d", firstNumber);
+    int matrix[3][4];
     return 0;
 }
