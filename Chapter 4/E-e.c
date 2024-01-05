@@ -3,8 +3,7 @@
 
 #include <stdio.h>
 
-int main ()
-{
+int main () {
     float sal ;
     printf ("Enter the salary: ") ;
     scanf ("%f", &sal ) ;

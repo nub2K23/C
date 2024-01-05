@@ -3,15 +3,13 @@
 
 #include <stdio.h>
 
-int main ()
-{
+int main () {
     // Initialize variables
     int p, n, count ;
     float r, si ;
     count = 1 ;
     
-    while (count <= 3)
-    {
+    while (count <= 3) {
         printf("Enter values of Principal, Number of Years & Rate: ") ;
         scanf("%d %d %f", &p, &n, &r) ;
 

@@ -3,17 +3,16 @@
 
 #include <stdio.h>
 
-int main ()
-{
+int main () {
     char ch ;
     printf("Enter the alphabet: ") ;
     scanf("%c", &ch) ;
 
     // Compare the value of ASCII to the entered value
-    if ( ch >= 97 && ch <= 122 )
+    if ( ch >= 97 && ch <= 122 ) {
         printf("The character is lower case.") ;
-    else
+    } else {
         printf("The character is not lower case.") ;
-    
+    }
     return 0 ;
 }

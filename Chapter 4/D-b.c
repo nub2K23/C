@@ -4,8 +4,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main () 
-{
+int main () {
     int red, green, blue;
 
     // Input RGB values
@@ -21,13 +20,10 @@ int main ()
     float white = fmax(fmax(red / 255.0, green / 255.0), blue / 255.0);
     float cyan, magenta, yellow, black;
 
-    if (white == 0) 
-    {
+    if (white == 0) {
         cyan = magenta = yellow = 0;
         black = 1;
-    } 
-    else 
-    {
+    } else {
         cyan = (white - red / 255.0) / white;
         magenta = (white - green / 255.0) / white;
         yellow = (white - blue / 255.0) / white;

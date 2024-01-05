@@ -3,8 +3,7 @@
 
 #include <stdio.h>
 
-int main ()
-{
+int main () {
     int yr ;
     printf("Enter the year: ") ;
     scanf("%d", &yr) ;

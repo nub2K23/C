@@ -4,8 +4,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main ()
-{
+int main () {
     float ang, sine, cosine, sums2, angrad ;
     
     //Input angle in degrees
@@ -23,10 +22,10 @@ int main ()
     sums2 = ( sine * sine ) + ( cosine * cosine ) ;
 
     // Check if the sum of squares is equal to 1
-    if ( sums2 == 1 ) 
+    if ( sums2 == 1 ) {
         printf("The sum of squares sine and cosine of the angle is equal to 1.") ;
-    else 
+    } else { 
         printf("The sum of squares of sine and cosine of the angle is not equal to 1.") ;
-    
+    }
     return 0 ;
 }
