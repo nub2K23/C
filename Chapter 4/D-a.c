@@ -20,10 +20,10 @@ int main() {
     
 
     // Check for right-angled triangle using Pythagorean theorem
-    if (s1*s1 + s2*s2 == s3*s3 || s1*s1 + s3*s3 == s2*s2 || s2*s2 + s3*s3 == s1*s1)
+    if (s1*s1 + s2*s2 == s3*s3 || s1*s1 + s3*s3 == s2*s2 || s2*s2 + s3*s3 == s1*s1) {
         printf ("The triangle is a right-angled triangle.\n") ;
-    else
+    } else {
         printf ("The triangle is not a right-angled triangle.\n") ;
-
+    }
     return 0;
 }
