@@ -4,8 +4,7 @@
 #include <math.h>
 
 void stats(int *, int *, double *);
-int main()
-{
+int main() {
     int sum, avg;
     double stdev;
     stats(&sum, &avg, &stdev);
@@ -13,8 +12,7 @@ int main()
     return 0;
 }
 
-void stats(int *sum, int *avg, double *stdev)
-{
+void stats(int *sum, int *avg, double *stdev) {
     int n1, n2, n3, n4, n5;
     printf("Enter 5 numbers: ");
     scanf("%d %d %d %d %d", &n1, &n2, &n3, &n4, &n5);
