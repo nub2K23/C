@@ -1,3 +1,5 @@
+// Binary Conversion Program using non recursive function. 
+
 #include <stdio.h>
 void decimalToBinary(int);
 
