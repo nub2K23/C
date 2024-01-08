@@ -17,9 +17,9 @@ int main() {
     printf("Absolute value of %d is: %d.\n\n", x, modulous);
 
     printf("Enter an lowercase alphabet: ");
-    scanf("%c", &ch);
+    scanf(" %c", &ch);
     uppercase = CONVERTALPHA(ch);
-    printf("Lowercase: %c, Uppercase: %c.\n\n", ch, uppercase);
+    printf("Input character: %c, Uppercase: %c.\n\n", ch, uppercase);
     
     printf("Enter 3 numbers: ");
     scanf("%d %d %d", &x, &y, &z);
