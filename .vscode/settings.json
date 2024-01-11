@@ -2,6 +2,8 @@
     "files.associations": {
         "2.C": "cpp",
         "3.C": "cpp",
-        "A.C": "cpp"
+        "A.C": "cpp",
+        "B.C": "cpp",
+        "C.C": "cpp"
     }
 }
