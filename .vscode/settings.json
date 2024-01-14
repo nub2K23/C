@@ -6,6 +6,9 @@
         "B.C": "cpp",
         "C.C": "cpp",
         "D.C": "cpp",
-        "E.C": "cpp"
+        "E.C": "cpp",
+        "Array.C": "cpp",
+        "string_view": "cpp",
+        "ArrayI.C": "cpp"
     }
 }
