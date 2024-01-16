@@ -9,6 +9,10 @@
         "E.C": "cpp",
         "Array.C": "cpp",
         "string_view": "cpp",
-        "ArrayI.C": "cpp"
+        "ArrayI.C": "cpp",
+        "F.C": "cpp",
+        "G.C": "cpp",
+        "H.C": "cpp",
+        "I.C": "cpp"
     }
 }
