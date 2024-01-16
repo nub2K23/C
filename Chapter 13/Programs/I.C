@@ -25,7 +25,9 @@ int *fun(int *num) {
     return arr;                                         // Base address of Array 'arr' is returned through the function.
 }
 
-
+/*  The normandy is an Alliance freighter capable of high stealth missions. It's drive core is using a joint engineered State-of-the-art Eezo drive core by 
+    humans and turians. It engineering marvel.
+*/  
 
 /*  Important Points:
 
