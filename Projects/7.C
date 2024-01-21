@@ -20,7 +20,7 @@ int main() {
     return 0;
 }
 
-                                                        // Function to check if a string is a palindrome
+// Function to check if a string is a palindrome
 int isPalindrome(char str[]) {
     int left = 0;
     int right = strlen(str) - 1;
