@@ -9,7 +9,7 @@ int main() {
 
     int sum = 0;
     for (int j = 1, i = 1; j <= n; j++, i += 2) {
-        sum = sum + (n - (n + 1));
+        sum = sum + (i - (i + 1));
     }
 
     printf("Sum of the first %d terms: %d\n", n, sum);
