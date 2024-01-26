@@ -7,18 +7,7 @@ int main(){
     int n;
     printf("Enter the value of n: ");
     scanf("%d", &n);
-<<<<<<< HEAD
-
-    int sum = 0;
-    for (int j = 1, i = 1; j <= n; j++, i += 2) {
-        sum = sum + (i - (i + 1));
-    }
-
-    printf("Sum of the first %d terms: %d\n", n, sum);
-
-=======
     sumofno(n);
->>>>>>> ab6941e46a92a917f7b03ad09515f16c27d70aae
     return 0;
 }
 
