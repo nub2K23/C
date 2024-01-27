@@ -2,17 +2,17 @@
 #include<stdlib.h>
 
 int main() {
-    int class, sub;
+    int clas, sub;
     
     // Infinite loop to keep the program running until the user chooses to exit.
     while(1) 
     {
-        printf("Enter the class obtained by the student from 1 - 3: \n");
+        printf("Enter the clas obtained by the student from 1 - 3: \n");
         printf("Enter '4' to exit the program.\nClass: ");
-        scanf("%d", &class);
+        scanf("%d", &clas);
         
-        // Switch statement to handle different cases based on the entered class.
-        switch (class) 
+        // Switch statement to handle different cases based on the entered clas.
+        switch (clas) 
         {
             case 1:
                 printf("Enter the number of subject(s) failed: ");
