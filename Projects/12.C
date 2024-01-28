@@ -22,8 +22,8 @@ int main() {
 
     do {
         printf("\nMenu:\n\n");
-        printf("1. Print even-valued elements.\n");
         printf("2. Print odd-valued elements.\n");
+        printf("1. Print even-valued elements.\n");
         printf("3. Calculate the Sum & Avg. of the array.\n");
         printf("4. Print the Minimum and Maximum value.\n");
         printf("5. Remove duplicate elements from the Array.\n");
@@ -147,4 +147,8 @@ void reverseArray(int arr[], int size) {
         printf("%d ", arr[i]);
     }
     printf("\n");
+}
+
+int menu() {
+
 }
