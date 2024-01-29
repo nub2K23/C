@@ -1,6 +1,7 @@
 /* Demonstration of the 'gets' & 'puts' commands. */
 #include <stdio.h>
-int main() {
+int main()
+{
     char name[25];
     printf("Enter your full name: ");
     gets(name);

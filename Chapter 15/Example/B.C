@@ -1,10 +1,12 @@
 /* Another way to print strings */
 #include <stdio.h>
-int main() {
+int main()
+{
     char name[] = "Klinsman";
     char *ptr;
-    ptr = name;                 // Storing the base address of name[0] in 'ptr'.
-    while (*ptr != '\0') {
+    ptr = name; // Storing the base address of name[0] in 'ptr'.
+    while (*ptr != '\0')
+    {
         printf("%c", *ptr);
         ptr++;
     }
