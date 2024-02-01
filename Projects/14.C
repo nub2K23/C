@@ -3,7 +3,7 @@ void swap(int *, int *);
 int main()
 {
     int x, y;
-    print("Enter values of x & y: ")
+    print("Enter values of x & y: ");
     scanf("%d %d", &x, &y);
     printf("Before swapping: x = %d, y = %d\n", x, y);
     swap(&x, &y);
