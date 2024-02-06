@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 // Define the structure for a student
 struct Student {
