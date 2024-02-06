@@ -1,7 +1,7 @@
 // Program to find whether a string is Palindrome or not using a function.
-
 #include <stdio.h>
 #include <string.h>
+
 int isPalindrome(char[]);
 int main() {
     char input[100];
