@@ -1,0 +1,6 @@
+#ignore all the '.exe' files.
+*.exe
+
+#ignore all the .vs folders
+.vs/
+.vscode/
