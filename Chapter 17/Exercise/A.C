@@ -3,11 +3,7 @@
 
 // Define the structure for a student
 struct Student {
-    int rollNumber;
-    char name[50];
-    char department[50];
-    char course[50];
-    int yearOfJoining;
+    int rollNumber; char name[50]; char department[50]; char course[50]; int yearOfJoining;
 };
 
 void printStudentsByYear(struct Student *, int, int);
