@@ -1,9 +1,7 @@
 // Memory map of structure elements.
 #include <stdio.h>
-int main()
-{
-    struct book
-    {
+int main() {
+    struct book {
         char name;
         float price;
         int pages;

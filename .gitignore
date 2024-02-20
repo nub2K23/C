@@ -1,2 +1,11 @@
+<<<<<<< HEAD
 #ignore all '.exe' files.
 *.exe
+=======
+#ignore all the '.exe' files.
+*.exe
+
+#ignore all the .vs folders
+.vs/
+.vscode/
+>>>>>>> 0aa3147a657e96ae5eaee0d69398662c7a19e5e3

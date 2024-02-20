@@ -1,7 +1,7 @@
 // Program to find whether a string is Palindrome or not using a function.
-
 #include <stdio.h>
 #include <string.h>
+
 int isPalindrome(char[]);
 int main() {
     char input[100];
@@ -24,8 +24,7 @@ int isPalindrome(char str[]) {
         if (str[left] != str[right]) {
             return 0; // Not a palindrome
         }
-        left++;
-        right--;
+        left++, right--;
     }
-    return 1; // Palindrome
+    return 1;           // Palindrome
 }
