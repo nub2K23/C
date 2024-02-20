@@ -2,14 +2,12 @@
 
 #include <stdio.h>
 
-int main()
-{
+int main() {
     int num, temp, rnum = 0;
     printf("Enter the number: ");
     scanf("%d", &num);
     int ognum = num;
-    while (num > 0)
-    {
+    while (num > 0) {
         temp = num % 10;
         rnum = rnum * 10 + temp;
         num /= 10;

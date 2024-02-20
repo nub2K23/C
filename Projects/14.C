@@ -1,7 +1,6 @@
 #include <stdio.h>
 void swap(int *, int *);
-int main()
-{
+int main() {
     int x, y;
     print("Enter values of x & y: ");
     scanf("%d %d", &x, &y);
@@ -11,8 +10,7 @@ int main()
     return 0;
 }
 
-void swap(int *a, int *b)
-{
+void swap(int *a, int *b) {
     int temp = *a;
     *a = *b;
     *b = temp;

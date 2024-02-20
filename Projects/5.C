@@ -2,8 +2,7 @@
 
 #include <stdio.h>
 void series_sum(int);
-int main()
-{
+int main() {
     int n;
     printf("Enter number of terms to find the sum of: ");
     scanf("%d", &n);

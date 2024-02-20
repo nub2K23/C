@@ -2,8 +2,7 @@
 
 #include <stdio.h>
 void findmax(int *, int, int, int);
-int main()
-{
+int main() {
     int n1, n2, n3, max;
     printf("Enter the 3 no.s: ");
     scanf("%d %d %d", &n1, &n2, &n3);
@@ -12,15 +11,12 @@ int main()
     return 0;
 }
 
-void findmax(int *ptr, int num1, int num2, int num3)
-{
+void findmax(int *ptr, int num1, int num2, int num3) {
     *ptr = num1;
-    if (num1 < num2)
-    {
+    if (num1 < num2) {
         *ptr = num2;
     }
-    if (*ptr < num3)
-    {
+    if (*ptr < num3) {
         *ptr = num3;
     }
 }
