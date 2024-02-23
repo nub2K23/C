@@ -61,9 +61,6 @@ int main() {
                 printf("Enter the first string: ");
                 scanf("%s", str1);
                 showAddress(str1);
-                printf("Enter the second string: ");
-                scanf("%s", str2);
-                showAddress(str2);
                 break;
             case 2:
                 printf("Enter the first string: ");
