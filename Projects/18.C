@@ -30,14 +30,7 @@ void reverseString(char *str);
 
 int main() {
     char str1[100], str2[50];
-    printf("Enter the first string: ");
-    gets(str1);
-
-    printf("Enter the second string: ");
-    gets(str2);
-
-        int choice;
-
+    int choice;
     do {
         // Display menu options
         printf("\nMenu:\n");
