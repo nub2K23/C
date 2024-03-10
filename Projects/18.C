@@ -30,54 +30,92 @@ void reverseString(char *str);
 
 int main() {
     char str1[100], str2[50];
-    printf("Enter the first string: ");
-    gets(str1);
+    int choice;
+    do {
+        // Display menu options
+        printf("\nMenu:\n");
+        printf("1. Show address of each character in the string\n");
+        printf("2. Concatenate two strings without using strcat function\n");
+        printf("3. Concatenate two strings with strcat function\n");
+        printf("4. Compare two strings\n");
+        printf("5. Calculate length of string (using pointers)\n");
+        printf("6. Convert all lowercase characters to uppercase\n");
+        printf("7. Convert all uppercase characters to lowercase\n");
+        printf("8. Calculate the number of vowels\n");
+        printf("9. Reverse the string\n");
+        printf("0. Exit\n");
 
-    printf("Enter the second string: ");
-    gets(str2);
+        // Get user choice
+        printf("Enter your choice: ");
+        scanf("%d", &choice);
 
-    // a) Show address of each character in the string
-    showAddress(str1);
-
-    // b) Concatenate two strings without using strcat function
-    concatenateWithoutStrcat(str1, str2);
-    printf("Concatenated string without strcat: %s\n", str1);
-
-    // Resetting str1 for further operations
-    strcpy(str1, "");
-    strcpy(str1, str2);
-
-    // c) Concatenate two strings with strcat function
-    concatenateWithStrcat(str1, str2);
-    printf("Concatenated string with strcat: %s\n", str1);
-
-    // d) Compare two strings
-    int result = compareStrings(str1, str2);
-    printf("Comparison result: %d\n", result);
-
-    // e) Calculate length of string (using pointers)
-    int length = calculateStringLength(str1);
-    printf("Length of the string: %d\n", length);
-
-    // f) Convert all lowercase characters to uppercase
-    convertToUppercase(str1);
-    printf("String with uppercase characters: %s\n", str1);
-
-    // Resetting str1 for further operations
-    strcpy(str1, "");
-    strcpy(str1, str2);
-
-    // g) Convert all uppercase characters to lowercase
-    convertToLowercase(str1);
-    printf("String with lowercase characters: %s\n", str1);
-
-    // h) Calculate the number of vowels
-    int vowelCount = countVowels(str1);
-    printf("Number of vowels: %d\n", vowelCount);
-
-    // i) Reverse the string
-    reverseString(str1);
-    printf("Reversed string: %s\n", str1);
+        switch (choice) {
+            case 1:
+                printf("Enter the first string: ");
+                scanf("%s", str1);
+                showAddress(str1);
+                break;
+            case 2:
+                printf("Enter the first string: ");
+                scanf("%s", str1);
+                printf("Enter the second string: ");
+                scanf("%s", str2);
+                concatenateWithoutStrcat(str1, str2);
+                printf("Concatenated string without strcat: %s\n", str1);
+                break;
+            case 3:
+                printf("Enter the first string: ");
+                scanf("%s", str1);
+                printf("Enter the second string: ");
+                scanf("%s", str2);
+                concatenateWithStrcat(str1, str2);
+                printf("Concatenated string with strcat: %s\n", str1);
+                break;
+            case 4:
+                printf("Enter the first string: ");
+                scanf("%s", str1);
+                printf("Enter the second string: ");
+                scanf("%s", str2);
+                int result = compareStrings(str1, str2);
+                printf("Comparison result: %d\n", result);
+                break;
+            case 5:
+                printf("Enter the string: ");
+                scanf("%s", str1);
+                int length = calculateStringLength(str1);
+                printf("Length of the string: %d\n", length);
+                break;
+            case 6:
+                printf("Enter the string: ");
+                scanf("%s", str1);
+                convertToUppercase(str1);
+                printf("String with uppercase characters: %s\n", str1);
+                break;
+            case 7:
+                printf("Enter the string: ");
+                scanf("%s", str1);
+                convertToLowercase(str1);
+                printf("String with lowercase characters: %s\n", str1);
+                break;
+            case 8:
+                printf("Enter the string: ");
+                scanf("%s", str1);
+                int vowelCount = countVowels(str1);
+                printf("Number of vowels: %d\n", vowelCount);
+                break;
+            case 9:
+                printf("Enter the string: ");
+                scanf("%s", str1);
+                reverseString(str1);
+                printf("Reversed string: %s\n", str1);
+                break;
+            case 0:
+                printf("Exiting the program. Goodbye!\n");
+                break;
+            default:
+                printf("Invalid choice. Please enter a valid option.\n");
+        }
+    } while (choice != 0);
 
     return 0;
 }
