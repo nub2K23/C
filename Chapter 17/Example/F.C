@@ -1,8 +1,7 @@
 // Passing individual structure elements.
 #include <stdio.h>
 
-struct book
-{
+struct book {
     char name[25];
     char author[25];
     int pages;
@@ -12,9 +11,8 @@ void dis1(char *, char *, int);
 void dis2(struct book);
 void dis3(struct book *);
 
-int main()
-{
-    struct book b1 = {"GAY NIGGA SEX", "RANDI", 69420};
+int main() {
+    struct book b1 = {"Let Us C", "YPK", 464};
     dis1(b1.name, b1.author, b1.pages);
     dis2(b1);
     dis3(&b1);
