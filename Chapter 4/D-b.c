@@ -11,8 +11,10 @@ int main () {
     printf("Enter RGB values (0 to 255):\n");
     printf("Red: ");
     scanf("%d", &red);
+    
     printf("Green: ");
     scanf("%d", &green);
+    
     printf("Blue: ");
     scanf("%d", &blue);
 
